@@ -1,0 +1,87 @@
+body{
+	background:#d3d3d3;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.middle{
+	position: absolute;
+  	top: 50%;
+  	left:50%;
+  	border-radius: 5px;
+    -webkit-box-shadow: 3px 3px 5px 6px #d3d3d3; 
+  	-moz-box-shadow:    3px 3px 5px 6px #d3d3d3; 
+ 	box-shadow:         3px 3px 5px 6px #d3d3d3;
+  	transform: translate(-50%,-50%);
+}
+
+#form{
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	background: #d3d3d3;
+	-webkit-box-shadow: 3px 3px 5px 6px #d3d3d3; 
+  	-moz-box-shadow:    3px 3px 5px 6px #d3d3d3; 
+ 	box-shadow:         3px 3px 5px 6px #d3d3d3;
+}
+img{
+	max-height:300px!important;
+	max-width: 300px!important;
+}
+#category, #dashboard, #addpost, #commentsec, #manage{
+	text-align: center;
+}
+#form{
+	align-content: center;
+	align-items: center;
+	font-size: 1em;
+	 display: inline-block;
+	font-weight: bold;
+	text-align: center;
+	background: #d3d3d3;
+	-webkit-box-shadow: 3px 3px 5px 6px #343A40; 
+  	-moz-box-shadow:    3px 3px 5px 6px #343A40; 
+ 	box-shadow:         3px 3px 5px 6px #343A40;
+}
+.btn-default{
+	background-color: #d3d3d3;
+	color: #000000;
+}
+.btn-default:hover{
+	background-color: #343A40;
+	color: #d3d3d3;
+}
+.nav-item , .nav-link{
+	color: #d3d3d3;
+}
+.btn-dark:hover ,.nav-link:hover{
+	background-color:#d3d3d3;
+	color: #343A40!important;
+}
+.nav-link.active{
+	background-color: #E9ECEF!important;
+	color: #000000!important;
+}
+.menu{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #343A40!important;
+    overflow-x: hidden;
+    padding-top: 20px;
+ 	min-height: 100vh;
+ 	min-height: 100%;
+}
+.hidden{
+	display: none;
+}
+.navbar{
+	background-color: #343A40!important;
+}
+.main{
+	margin-left: 260px;
+	padding: 0px 10px;
+ 	background-color: #d3d3d3!important;
+ 	min-height: 100vh;
+ 	min-height: 100%;
+}
